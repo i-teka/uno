@@ -1,0 +1,156 @@
+<!-- Lectura -->
+<IDOCTYPE HTML>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title> Teká </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> <!-- Tipo de letra-->
+</head>
+
+<body>
+	<header> 
+	<h1 class="titulo-principal"> Teká </h1>
+		<p> Tu lugar para el café y una taza de té </p>
+    
+	<nav>
+		 <a href="index.html">Inicio</a>
+		<a href="nosotros.html">Nosotros</a>
+		<a href="productos.html">Productos</a>
+		<a href="recetas.html">Recetas</a>
+		<a href="lecturas.html">Lecturas</a>
+		<a href="contacto.html">Contáctenos</a>
+	</nav>
+		
+	</header>
+	
+	<main>
+	
+		<section id="lecturas">
+		  <h2>Lecturas para acompañar tu taza de Teká</h2>
+		  <p class="intro-lecturas">
+			Nada como perderse entre páginas mientras disfrutas de tu bebida favorita. Aquí te recomendamos algunas lecturas perfectas para acompañar un buen café o té.
+		  </p>
+
+		  <div class="contenedor-lecturas">
+			<!-- Lectura 1 -->
+			<div class="lectura">
+			  <img src="https://img.pacifiko.com/PROD/resize/1/500x500/YTA4OWJjZT.jpg" 
+			  alt="Cien años de soledad">
+			  <h3><em>Cien años de soledad</em></h3>
+			  <p>Gabriel García Márquez</p>
+			  <p>Un clásico del realismo mágico que te transporta al mítico Macondo. </p>
+			  <p>Ideal con un té negro o café intenso.</p>
+				<button class="btn-leer" onclick="alertaLectura()">Leer</button>
+			</div>
+			
+			<div class="lectura">
+			  <img src="https://m.media-amazon.com/images/I/71yNoo-BOgL._UF894,1000_QL80_.jpg" 
+			  alt="La biblioteca de la medianoche">
+			  <h3><em>La biblioteca de la medianoche</em></h3>
+			  <p>Matt Haig</p>
+			  <p>Una historia sobre las decisiones que tomamos y las vidas que podríamos haber tenido.</p>
+			  <p>Perfecto con una infusión suave.</p>
+			  <button class="btn-leer" onclick="alertaLectura()">Leer</button>
+			</div>
+
+			<div class="lectura">
+			  <img src="https://m.media-amazon.com/images/I/71RV0mM26XL._UF1000,1000_QL80_.jpg" 
+			  alt="Roma soy yo">
+			  <h3><em>Roma soy yo</em></h3>
+			  <p>Santiago Posteguillo</p>
+			  <p>Una novela histórica vibrante que narra la juventud de Julio César.</p>
+			  <p>Ideal con un café robusto.</p>
+			  <button class="btn-leer" onclick="alertaLectura()">Leer</button>
+			</div>
+
+			<div class="lectura">
+			  <img src="https://img1.od-cdn.com/ImageType-100/1694-1/%7B54AB8E52-A0CE-4601-9A72-3F6B416B9E29%7DImg100.jpg" 
+			  alt="El buzón del tiempo">
+			  <h3><em>El buzón del tiempo</em></h3>
+			  <p>Mario Benedetti</p>
+			  <p>Una colección de cuentos con nostalgia y reflexión.</p>
+			  <p>Acompáñalo con un té de jazmín o una bebida ligera.</p>
+			  <button class="btn-leer" onclick="alertaLectura()">Leer</button>
+			</div>
+			
+			<div class="lectura">
+			  <img src="https://tienda.sophosenlinea.com/imagenes/9788498/978849841451.webp" 
+			  alt="El mundo de Sofía">
+			  <h3><em>El mundo de Sofía</em></h3>
+			  <p>Jostein Gaarder</p>
+			  <p>Una novela que introduce a los jóvenes (y no tan jóvenes) en la historia de la filosofía.</p>
+			  <p>Perfecta con una infusión de té blanco.</p>
+			  <button class="btn-leer" onclick="alertaLectura()">Leer</button>
+			</div>
+				
+			<div class="lectura">
+			  <img src="https://tienda.sophosenlinea.com/imagenes/9786073/978607380784.webp" 
+			  alt="Los juegos del hambre">
+			  <h3><em>Los juegos del hambre</em></h3>
+			  <p>Suzanne Collins</p>
+			  <p>Una distopía intensa y atrapante que combina acción, crítica social y emociones. </p>
+			  <p>Ideal para acompañar con un café fuerte.</p>
+			  <button class="btn-leer" onclick="alertaLectura()">Leer</button>
+			</div>
+				
+		  </div>
+		</section>
+		
+		<!-- Accesorios de Teká- -->
+				<h3 style="margin-top: 50px; text-align: center;">Accesorios para tu momento Teká</h3>
+		<p class="intro-lecturas">
+		Acompaña tus lecturas con los mejores accesorios diseñados para brindarte confort, estilo y calidez. </p>
+
+		<div class="contenedor-lecturas">
+		  <!-- Accesorio 1 -->
+		  <div class="lectura">
+			<img src="https://thumbs.dreamstime.com/b/t%C3%ADpicas-tazas-de-cer%C3%A1mica-artesanal-guatemala-souvenirs-antigua-marzo-216437234.jpg" 
+			alt="Taza artesanal">
+			<h3><em> Taza artesanal Teká </em></h3>
+			<p> Cerámica hecha a mano con acabado rústico.</p>
+			<p><strong>Precio:</strong> Q45.00</p>
+			<p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+			<button class="btn-comprar" onclick="mostrarAlerta('lectura')">Comprar</button>
+		  </div>
+
+		  <!-- Accesorio 2 -->
+		  <div class="lectura">
+			<img src="https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ihb/ihb00961/y/8.jpg" 
+			alt="Infusor de té">
+			<h3><em>Infusor de acero inoxidable</em></h3>
+			<p>Ideal para hojas sueltas. Fácil de limpiar.</p>
+			<p><strong> Precio: </strong> Q35.00</p>
+			<p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+			<button class="btn-comprar" onclick="mostrarAlerta('lectura')">Comprar</button>
+		  </div>
+
+		  <!-- Accesorio 3 -->
+		  <div class="lectura">
+			<img src="https://casaumo.com.ar/cdn/shop/files/vela-aromatica-cera-soja-cristal-classic-casa-umo.png?v=1706829140" 
+			alt="Vela aromática">
+			<h3><em>Vela aromática Teká</em></h3>
+			<p>Aroma a canela y vainilla, para ambientar tu lectura.</p>
+			<p><strong> Precio:</strong> Q60.00 </p>
+			<p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+			<button class="btn-comprar" onclick="mostrarAlerta('lectura')">Comprar</button>
+		  </div>
+		</div>
+	
+	</main>
+	
+<script>
+  function mostrarAlerta(producto) {
+    alert("Gracias por tu interés. Pronto nos pondremos en contacto para coordinar tu pedido de " + producto + ".");
+  }
+
+  function alertaLectura() {
+    alert("¡Buena elección! Este libro estará próximamente disponible.");
+  }
+</script>
+
+<footer>
+    <p>&copy; 2025 Teká. Todos los derechos reservados.</p>
+ </footer>
+</body>

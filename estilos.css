@@ -1,0 +1,460 @@
+/*Comandos de apariencia de la pagina */
+
+/* Apariencia de la barra de opciones y logo */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cuerpo de la página */
+body {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.6;
+  background-color: #fff8e1;
+  padding: 5px;
+}
+
+/* Encabezado con logo y barra fija */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6d4c41;
+  color: white;
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* Título principal centrado y elegante */
+.titulo-principal {
+  font-size: 48px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+/* Navegación horizontal */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 3px 3px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #8d6e63;
+  border-radius: 5px;
+}
+
+/* Contenido principal */
+main {
+  margin-top: 60px; /* espacio debajo de la barra */
+  padding: 20px;
+}
+
+/* Secciones */
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Ajuste general de texto */
+p {
+  font-size: 1.1rem;
+  color: #black;
+}
+/* Pantalla prncipal */
+.bienvenida {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.bienvenida p {
+  font-size: 1.2rem;
+  color: black;
+  margin: 10px 0;
+}
+.boton-cta {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #c9a97c;
+  color: #3e2c23;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-cta:hover {
+  background-color: #b88a60;
+}
+/* Nostras */
+
+body.nosotros h2 {
+  background-image: url('im/dos.jpg'); /* La ruta de tu imagen */
+  background-size: cover;        /* Para que la imagen cubra todo el área */
+  background-position: center;   /* Centrar la imagen */
+  background-repeat: no-repeat;  /* Que no se repita */
+  color: white;                  /* Texto blanco para contraste */
+  padding: 20px 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 30px auto;
+}
+#nosotros p {
+  color: white;
+  text-align: justify;
+  line-height: 1.6;
+  padding: 10px 15px;
+  background-color: rgba(93, 64, 55, 0.7); /* cafecito oscuro translúcido */
+  background-blend-mode: overlay;    
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+#nosotros p:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: #000;
+}
+/*Productos*/
+ 
+ /* Estilo general */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.6;
+  background-color: #fff8e1;
+  padding: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6d4c41;
+  color: white;
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  margin-left: 30px;
+  position: relative;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #5c4033;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  min-width: 150px;
+  z-index: 1001;
+}
+
+nav ul li .dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li .dropdown-content a:hover {
+  background-color: #3e2c23;
+}
+
+nav ul li:hover .dropdown-content {
+  display: block;
+}
+
+main {
+  margin-top: 60px;
+  padding: 20px;
+}
+
+/* Sección Productos */
+#productos {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.destacados-contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.producto-destacado .producto {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px auto;
+}
+
+.productos .producto {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 350px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;             /* Ajusta al ancho del contenedor */
+  height: 300px;           /* Altura fija */
+  object-fit: cover;       /* Recorta y centra la imagen sin deformarla */
+  border-radius: 10px;
+}
+
+.producto button,
+.ver-mas {
+  background-color: #3e2c23;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.producto button:hover,
+.ver-mas:hover {
+  background-color: #5c4033;
+}
+
+.titulo-subseccion {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.4rem;
+  color: #3e2c23;
+}
+
+@media (max-width: 768px) {
+  .destacados-contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .producto-destacado .producto,
+  .productos .producto {
+    width: 90%;
+    max-width: 100%;
+  }
+}
+
+/* Sección Recetas */
+#recetas {
+  padding: 40px 20px;
+  background-color: #f6eee3;
+  text-align: center;
+}
+
+.contenedor-recetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.receta {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 300px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.receta:hover {
+  transform: scale(1.03);
+}
+
+.receta img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.receta h3 {
+  margin: 15px 0 10px;
+  color: #6d4c41;
+}
+
+.receta p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.receta a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #3e2c23;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Sección Lecturas */
+#lecturas {
+  padding: 40px 20px;
+  background-color: #fff3e0;
+  text-align: center;
+}
+
+.intro-lecturas {
+  font-style: italic;
+  color: #5d4037;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenedor-lecturas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.lectura {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 280px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.lectura:hover {
+  transform: scale(1.03);
+}
+
+.lectura img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.lectura h3 {
+  margin: 15px 0 5px;
+  color: #4e342e;
+  font-size: 1.1rem;
+}
+
+.lectura p {
+  color: #5d4037;
+  font-size: 0.95rem;
+  margin: 5px 0;
+}
+
+
+
+/* Botones de compra para accesorios */
+.btn-comprar {
+  background-color: #3e2c23;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Playfair Display', serif;
+  transition: background-color 0.3s ease;
+}
+
+.btn-comprar:hover {
+  background-color: #5c4033;
+}
+ 
+ .btn-leer {
+  background-color: #6d4c41;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Playfair Display', serif;
+  transition: background-color 0.3s ease;
+}
+
+.btn-leer:hover {
+  background-color: #8b5e3c;
+}
+ 
+footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 15px;
+  background-color: #3e2c23;
+  color: white;
+}

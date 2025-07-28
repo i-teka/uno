@@ -1,0 +1,232 @@
+<!-- sección de productos -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title> Teká </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> <!-- Tipo de letra-->
+</head>
+
+<body>
+	<header> 
+	<h1 class="titulo-principal"> Teká </h1>
+		<p> Tu lugar para el café y una taza de té </p>
+    <nav>	
+      <ul>
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <li class="dropdown">
+          <a href="#">Productos ▾</a>
+          <div class="dropdown-content">
+            <a href="#te">Ver Té</a>
+            <a href="#cafe">Ver Café</a>
+          </div>
+        </li>
+        <a href="recetas.html">Recetas</a>
+        <a href="lecturas.html">Lecturas</a>
+        <a href="contacto.html">Contáctenos</a>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="productos">
+      <h2 style="text-align: center;">Productos Destacados</h2>
+      <div class="destacados-contenedor" id="destacados">
+        <div class="producto-destacado">
+          <h3>Té Destacado</h3>
+          <div class="producto">
+			<img src="https://cdn.shopify.com/s/files/1/0582/9581/2256/files/japanese-green-tea-varieties.jpg?v=1705818863" 
+			alt="Té">
+			  <h3> Té Verde Japonés Sencha </h3>
+			    <p>Paquete 200g, hojas sueltas </p>
+				<p> Rico en antioxidantes, sabor fresco y vegetal con un toque dulce. Ideal para revitalizar. </p>
+				<p><strong>Precio:</strong> Q60.00</p>
+				<p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+				<p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+				 <a href="#te" class="ver-mas">Ver más productos de té</a>
+          </div>
+        </div>
+
+        <div class="producto-destacado">
+          <h3>Café Destacado</h3>
+          <div class="producto">
+		  <img src="https://imagenes.elpais.com/resizer/v2/CWFF4VWVAZA3BMZUXS42ZD6YYE.png?auth=307eea8b367a09afb224664e1ae696d284ab407036047d8e44aec1efb6ece3ea&width=1960&height=1470&smart=true" 
+			 alt="Café">
+		<h3> Café Árabica Premium </h3>
+			<p> Paquete 500g, tueste medio </p>
+			<p> Sabor suave, notas afrutadas y aroma intenso. Cultivado en altitud. </p>
+			<p><strong>Precio:</strong> Q80.00</p>
+			<p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+			<p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+            <a href="#cafe" class="ver-mas">Ver más productos de café</a>
+          </div>
+        </div>
+      </div>
+
+      <h3 id="te" class="titulo-subseccion">Más productos de Té</h3>
+      <div class="productos productos-completos">
+	  
+        <!-- Productos de Té -->
+		<div class="producto">
+			<img src="https://cdn.shopify.com/s/files/1/0582/9581/2256/files/japanese-green-tea-varieties.jpg?v=1705818863" 
+			alt="Té">
+			  <h3> Té Verde Japonés Sencha </h3>
+			    <p>Paquete 200g, hojas sueltas </p>
+				<p> Rico en antioxidantes, sabor fresco y vegetal con un toque dulce. Ideal para revitalizar. </p>
+				<p><strong>Precio:</strong> Q60.00</p>
+				<p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+				<p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+				 <a href="#te" class="ver-mas">Comprar</a>
+          </div>
+		  
+		<div class="producto">
+		  <img src="https://media.istockphoto.com/id/599909102/es/foto/t%C3%A9-indio-masala-chai-t%C3%A9-especiado-con-leche.jpg?s=612x612&w=0&k=20&c=8j8Yi8VSUT-xB9VRJ7epwXx4J0t_c3ALlGT9DVyGHDo=" 
+		  alt="Té Chai">
+		  <h3> Té Chai Especiado </h3>
+		  <p> Paquete 250g, mezcla de té negro y especias </p>
+		  <p> Sabor intenso y cálido con notas de canela, cardamomo y jengibre. Ideal con leche. </p>
+		  <p><strong>Precio:</strong> Q65.00</p>
+		  <p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+		  <p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+		  <button onclick="mostrarAlerta('té')">Comprar</button>
+		</div>
+
+		<div class="producto">
+		  <img src="https://libera.pe/wp-content/uploads/2018/02/FLOR-DE-JAMAICA-2.jpg"
+		  alt="Té de Jamaica">
+		  <h3> Té de Jamaica </h3>
+		  <p> Paquete 200g, flores secas naturales </p>
+		  <p> Refrescante, ácido y con propiedades digestivas. Ideal para beber frío. </p>
+		  <p><strong>Precio:</strong> Q45.00</p>
+		  <p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+		  <p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+		  <button onclick="mostrarAlerta('té')">Comprar</button>
+		</div>
+
+		<div class="producto">
+		  <img src="https://www.laselva.com.uy/repo/img/roiboosblogmarzo2021.jpg" 
+		  alt="Té Africano">
+		  <h3> Té Rooibos Africano </h3>
+		  <p> Paquete 150g, sin cafeína </p>
+		  <p> Dulce, terroso y con antioxidantes. Perfecto para la noche. </p>
+		  <p><strong>Precio:</strong> Q58.00</p>
+		  <p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+		  <p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+		  <button onclick="mostrarAlerta('té')">Comprar</button>
+		</div>
+
+		<div class="producto">
+		  <img src="https://m.media-amazon.com/images/I/718qM7dg1mL.jpg" 
+		  alt="Té Japonés">
+		  <h3> Té Matcha Japonés </h3>
+		  <p> Lata 100g, grado ceremonial </p>
+		  <p> Polvo verde vibrante, energizante y con sabor umami. Ideal para batidos o lattes. </p>
+		  <p><strong>Precio:</strong> Q95.00</p>
+		  <p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+		  <p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+		  <button onclick="mostrarAlerta('té')">Comprar</button>
+		</div>
+
+		<div class="producto">
+		  <img src="https://us.123rf.com/450wm/smit/smit1309/smit130900032/22274883-mint-tea-with-fresh-mint-leaves.jpg"
+		  alt="Té de menta">
+		  <h3> Té de Menta Fresca </h3>
+		  <p> Paquete 150g, hojas secas </p>
+		  <p> Refrescante, ideal para combatir el calor o calmar el estómago. </p>
+		  <p><strong>Precio:</strong> Q50.00</p>
+		  <p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+		  <p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+		  <button onclick="mostrarAlerta('té')">Comprar</button>
+		</div>
+	<div>
+
+			   <!-- Productos de Café -->
+      <h3 id="cafe" class="titulo-subseccion">Más productos de Café</h3>
+      <div class="productos productos-completos">
+	    <div class="producto">
+			 <img src="https://imagenes.elpais.com/resizer/v2/CWFF4VWVAZA3BMZUXS42ZD6YYE.png?auth=307eea8b367a09afb224664e1ae696d284ab407036047d8e44aec1efb6ece3ea&width=1960&height=1470&smart=true" 
+			 alt="Café">
+		<h3> Café Árabica Premium </h3>
+			<p> Paquete 500g, tueste medio </p>
+			<p> Sabor suave, notas afrutadas y aroma intenso. Cultivado en altitud. </p>
+			<p><strong>Precio:</strong> Q80.00</p>
+			<p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+			<p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+			<button onclick="mostrarAlerta('café')">Comprar</button>
+		</div>
+		 <div class="producto">
+			 <img src="https://www.sorbodecafe.com/wp-content/uploads/2024/10/Cafe-Robusta-1024x585.webp" 
+			 alt="Café">
+		<h3> Café Robusta Clásico </h3>
+			<p> Paquete 500g, tueste medio </p>
+			<p> Sabor fuerte y amargo, con alto contenido de cafeína. Ideal para espresso.</p>
+			<p><strong>Precio:</strong> Q80.00</p>
+			<p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+			<p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+			<button onclick="mostrarAlerta('café')">Comprar</button>
+			</div>
+		<div class="producto">
+			  <img src="https://m.media-amazon.com/images/I/81xEw8wgTLL._UF894,1000_QL80_.jpg" 
+			  alt="Café de Especialidad Tarrazú">
+			<h3> Café de Especialidad Tarrazú </h3>
+			  <p> Paquete 340g, tueste medio-claro </p>
+			  <p> Café gourmet de altura con notas cítricas y florales, cosechado a mano en micro-lotes. </p>
+			  <p><strong>Precio:</strong> Q95.00</p>
+			  <p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+			  <p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+			  <button onclick="mostrarAlerta('café')">Comprar</button>
+		</div>
+		 
+		 <div class="producto">
+			<img src="https://go.alltech.com/hubfs/shutterstock_171425462-1.jpg" 
+			alt="Café Robusta Clásico">
+		<h3> Café Robusta Clásico </h3>
+			<p> Paquete 500g, tueste oscuro </p>
+			<p> Sabor intenso y amargo, con alto contenido de cafeína. Ideal para espresso fuerte. </p>
+			  <p><strong>Precio:</strong> Q75.00</p>
+			  <p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+			  <p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+			  <button onclick="mostrarAlerta('café')">Comprar</button>
+		 </div>
+
+		 <div class="producto">
+			<img src="https://www.consumoteca.pe/wp-content/uploads/Saco-con-granos-de-cafe-organico-Tina-Guina-Unsplash.jpg"
+			alt = "Cafe organico">
+		  <h3> Café Orgánico Natural </h3>
+			  <p> Paquete 500g, tueste claro </p>
+			  <p> Cultivado sin pesticidas, con sabor limpio y delicado. Ideal para prensa francesa. </p>
+			  <p><strong>Precio:</strong> Q85.00</p>
+			  <p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+			  <p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+			  <button onclick="mostrarAlerta('café')">Comprar</button>
+		</div>
+
+		<div class="producto">
+			<img src="https://www.malongo.com/boutique/c/20-category_cover/cafes-del-mundo.jpg" 
+			alt="Café Descafeinado">
+			  <h3> Café Descafeinado </h3>
+			  <p> Paquete 250g, tueste medio </p>
+			  <p> Sabor equilibrado sin cafeína. Perfecto para quienes desean evitar estimulantes. </p>
+			  <p><strong>Precio:</strong> Q60.00</p>
+			  <p><strong>Método de pago:</strong> Transferencia o pago contra entrega</p>
+			  <p><strong>Envío:</strong> Disponible a toda Guatemala (Q25 adicional)</p>
+			  <button onclick="mostrarAlerta('café')">Comprar</button>
+		</div>
+
+    </section>
+  </main>
+  
+ <script>
+    function mostrarAlerta(producto) {
+        alert("¡Gracias por interesarte en nuestro " + producto + "! Pronto estará disponible para compra en línea.");
+    }
+</script>
+
+  <footer>
+    <p>&copy; 2025 Teká. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
